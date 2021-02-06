@@ -1,0 +1,19 @@
+[http]
+	sslVerify = false
+[https]
+	sslVerify = false
+[user]
+	name = Ramesh Meduri
+	email = rameshmeduri@.outlook.com
+[url "https://"]
+	insteadOf = git://
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[core]
+	editor = subl --wait
+	autocrlf = input
+[credential]
+	helper = manager

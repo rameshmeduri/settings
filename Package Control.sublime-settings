@@ -1,0 +1,18 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AlignTab",
+		"auto-save",
+		"Babel",
+		"CSS Format",
+		"Emmet",
+		"JsPrettier",
+		"MarkdownPreview",
+		"Package Control",
+		"Sass"
+	]
+}
